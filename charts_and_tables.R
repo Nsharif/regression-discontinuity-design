@@ -43,7 +43,7 @@ stargazer(df2_model_1
                                 ,"KP Offers dhmo"
                                 ,"KP Offers hmo"
                                 ,"Average Age"
-                                ,"Average KP Rate Increase"
+                                ,"Rate Position"
                                 ,"Prior Membership Growth"
                                 ,"Trend"
                                 ,"Years KP hdhp Offered"))

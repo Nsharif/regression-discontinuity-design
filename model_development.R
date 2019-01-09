@@ -28,7 +28,7 @@ df2_model_3 <- lm(mg_pct
                   +kp_dhmo # identify that there is a difference in product mix
                   +kp_hmo # identify that there is a difference in product mix
                   +mrn_avg_age # identify that there is a difference in age
-                  +ri_mean # identify that there is a difference in RI
+                  +rp_mean # identify that there is a difference in RI
                   ,data = df2_eda)
 
 summary(df2_model_3)
@@ -38,7 +38,7 @@ df2_model_4 <- lm(mg_pct
                   +kp_dhmo
                   +kp_hmo
                   +mrn_avg_age
-                  +ri_mean
+                  +rp_mean
                   +lag(mg_pct)
                   ,data = df2_eda)
 
@@ -49,7 +49,7 @@ df2_model_5 <- lm(mg_pct
                   +kp_dhmo
                   +kp_hmo
                   +mrn_avg_age
-                  +ri_mean
+                  +rp_mean
                   +lag(mg_pct)
                   +effective_date_year
                   +total_years_hdhp_offered
